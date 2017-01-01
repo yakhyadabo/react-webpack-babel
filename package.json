@@ -1,0 +1,16 @@
+{
+  "name": "react-webpack-babel",
+  "version": "1.0.0",
+  "description": "Companion code for React Speed Coding book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakhyadabo/react-webpack-babel.git"
+  },
+  "author": "Yakhya Dabo",
+  "license": "MIT"
+}

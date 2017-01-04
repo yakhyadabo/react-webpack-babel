@@ -1,5 +1,6 @@
 import React, { PropTypes, Component} from 'react';
 import ChildComp1 from './ChildComp1.jsx';
+import ChildComp2 from './ChildComp2.jsx';
 
 export default class MainComp extends Component {
 
@@ -57,11 +58,8 @@ export default class MainComp extends Component {
          
 			<button onClick={this.handleClick}>Send</button>
 
-          <h3> Friends </h3>
-           <ul>
-	              {listItems}
-           </ul>
-       </div>
+        <ChildComp2 friends={listItems} />
+      </div>
     )
   }
 }
